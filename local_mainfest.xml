@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote  name="salik"
-                fetch="https://github.com/P-Salik" />
 	<remote name="Fraschze97"
 		fetch="https://github.com/Fraschze97" />
-	<remote name="pro"
-		fetch="https://github.com/SparXFusion" />
 
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="Fraschze97" revision="eleven" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="Fraschze97" revision="eleven" clone-depth="1" />
