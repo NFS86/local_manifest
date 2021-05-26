@@ -4,8 +4,8 @@
 	<remote  name="phh" fetch="https://github.com/phhusson" />
 
 	#Selinux
-		<remove-project name="android_vendor_extra" />
-	<project path="patches/external/selinux" name="android_vendor_extra" remote="samarV" revision="lineage-18.1"/>
+		<remove-project name="external/selinux" />
+	<project path="external/selinux" name="android_vendor_extra" remote="samarV" revision="lineage-18.1"/>
 
     #framework_av
 		<remove-project name="platform_frameworks_av" />
