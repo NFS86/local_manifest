@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-    <remote name="Fraschze97" fetch="https://github.com/Fraschze97/" />
-    
-    # Frameworks_opt_net_wifi
-    <remove-project name="android_frameworks_opt_net_wifi" />
-    <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="Fraschze97" revision="11" />
-
-</manifest>
