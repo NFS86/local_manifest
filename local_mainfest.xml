@@ -9,8 +9,8 @@
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="Fraschze97" revision="eleven" clone-depth="1" />
 	
 	# SEPOLICY
-	<remove-project name="android_device_nad_sepolicy" />
-	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="Fraschze97" revision="eleven" />
+	# <remove-project name="android_device_nad_sepolicy" />
+	# <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="Fraschze97" revision="eleven" />
 	
 	# WIFI
 	<remove-project name="android_frameworks_opt_net_wifi" />
