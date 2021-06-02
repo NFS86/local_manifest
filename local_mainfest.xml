@@ -2,14 +2,20 @@
 <manifest>
 	<remote name="Fraschze97"
 		fetch="https://github.com/Fraschze97" />
-	
+	# DT
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="Fraschze97" revision="nad11" clone-depth="1" />
 	
+	# VT
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="Fraschze97" revision="eleven" clone-depth="1" />
 	
+	# SEPOLICY
+	<remove-project name="android_device_nad_sepolicy" />
+	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="Fraschze97" revision="eleven" />
 	
+	# WIFI
 	<remove-project name="android_frameworks_opt_net_wifi" />
-        <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="Fraschze97" revision="11" clone-depth="1" />	
+        <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="Fraschze97" revision="11" clone-depth="1" />
 	
-		<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Fraschze97" revision="lineage-18.1" clone-depth="1" />
+	# REALMEPART
+	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Fraschze97" revision="lineage-18.1" clone-depth="1" />
 </manifest>
