@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="Fraschze97"
-		fetch="https://github.com/Fraschze97" />
-
-        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="Fraschze97" revision="nad11" clone-depth="1" />
-        <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="Fraschze97" revision="eleven" clone-depth="1" />
-		<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Fraschze97" revision="lineage-18.1" clone-depth="1" />	
-		
+    <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="Fraschze97" revision="nad11" />
+    <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="Fraschze97" revision="eleven" />
+	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Fraschze97" revision="lineage-18.1" />	
 </manifest>
