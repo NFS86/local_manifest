@@ -12,10 +12,6 @@
 	<remove-project name="android_device_nad_sepolicy" />
 	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="Fraschze97" revision="eleven" />
 	
-	# WIFI
-	<remove-project name="android_frameworks_opt_net_wifi" />
-        <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="Fraschze97" revision="android-11.0.0_r37-phh" clone-depth="1" />
-	
 	# REALMEPART
 	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Fraschze97" revision="lineage-18.1" clone-depth="1" />
 </manifest>
