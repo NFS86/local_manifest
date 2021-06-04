@@ -12,10 +12,6 @@
 	<remove-project name="android_device_nad_sepolicy" />
 	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="Fraschze97" revision="eleven" />
 	
-	# FRAMEWORK_BASE
-	<remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="platform_frameworks_base" remote="Fraschze97" revision="android-11.0.0_r37-phh" clone-depth="1" />
-	
 	# WIFI
 	<remove-project name="android_frameworks_opt_net_wifi" />
         <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="Fraschze97" revision="android-11.0.0_r37-phh" clone-depth="1" />
