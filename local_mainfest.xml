@@ -9,8 +9,8 @@
         <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="Fraschze97" revision="eleven" clone-depth="1" />
 	
 	# SEPOLICY
-	<remove-project name="android_device_nad_sepolicy" />
-	<project path="system/sepolicy" name="platform_system_sepolicy" remote="Fraschze97" revision="android-10.0.0_r41-phh" />
+	#remove-project name="android_device_nad_sepolicy" />
+	#project path="system/sepolicy" name="platform_system_sepolicy" remote="Fraschze97" revision="android-10.0.0_r41-phh" />
 	
 	# REALMEPART
 	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Fraschze97" revision="lineage-18.1" clone-depth="1" />
