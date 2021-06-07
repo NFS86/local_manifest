@@ -6,6 +6,7 @@
 	# SYSTEM_SEPOLICY
 	<remove-project name="android_system_sepolicy" />
         <project path="system/sepolicy" name="android_system_sepolicy" remote="Fraschze97" revision="eleven" clone-depth="1" />
+	<project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="Fraschze97" revision="eleven" clone-depth="1" />
 	
 	# DT
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="Fraschze97" revision="nad11" clone-depth="1" />
