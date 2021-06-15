@@ -3,6 +3,10 @@
 	<remote name="Fraschze97"
 		fetch="https://github.com/Fraschze97" />
 	
+	# Apps_Plugins
+        <remove-project name="android_packages_apps_Plugins" />
+	<project path="packages/apps/plugins" name="android_packages_apps_PotatoPlugins" remote="Fraschze97" revision="eleven" />
+	
 	# DT
         <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="Fraschze97" revision="eleven" clone-depth="1" />
 	
