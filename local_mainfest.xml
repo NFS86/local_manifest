@@ -7,6 +7,10 @@
         <remove-project name="android_packages_apps_Plugins" />
 	<project path="packages/apps/plugins" name="android_packages_apps_PotatoPlugins" remote="Fraschze97" revision="eleven" />
 	
+	# SEPOLICY
+	<remove-project name="android_device_nad_sepolicy" />
+	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="Fraschze97" revision="eleven" />
+	
 	# DT
         <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="Fraschze97" revision="eleven" clone-depth="1" />
 	
