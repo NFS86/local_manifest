@@ -19,7 +19,4 @@
 	
 	# REALME_PART
 	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Fraschze97" revision="lineage-18.1" clone-depth="1" />
-	
-	# Treble_App
-	<project path="treble/app" name="treble_app" remote="Fraschze97" revision="master" clone-depth="1" />
 </manifest>
