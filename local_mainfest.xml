@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="Fraschze97"
-		fetch="https://github.com/Fraschze97" />
+	<remote name="me"
+                fetch="https://github.com/Fraschze97" />
+        <remote name="vendor"
+                fetch="https://github.com/realme-c2" />
+        <remote name="patch"
+                fetch="https://github.com/PixelExperience" />
+	# Tree
+        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="me" revision="Nusantara-11" clone-depth="1" />
 	
-	# DT
-        <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="Fraschze97" revision="Nusantara-11" clone-depth="1" />
+        <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="vendor" revision="eleven" clone-depth="1" />
 	
-	# VT	
-	<project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="Fraschze97" revision="eleven" clone-depth="1" />
+	# Misc
+        <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="me" revision="lineage-18.1" clone-depth="1" />
 	
-	# Part
-	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Fraschze97" revision="lineage-18.1" clone-depth="1" />
+	# Patch
+        <remove-project name="platform/frameworks/opt/net/ims" />
+        <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="patch" revision="eleven" clone-depth="1" />
+	
+        <remove-project name="android_frameworks_opt_net_wifi" />
+        <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="patch" revision="eleven" clone-depth="1" />
+	
+        <remove-project name="android_external_selinux" />
+        <project path="external/selinux" name="external_selinux" remote="patch" revision="eleven" clone-depth="1" />
 </manifest>
