@@ -15,7 +15,6 @@
         <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="me" revision="lineage-18.1" clone-depth="1" />
 	
 	# Patch
-        <remove-project name="platform/frameworks/opt/net/ims" />
         <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="patch" revision="eleven" clone-depth="1" />
 	
         <remove-project name="android_frameworks_opt_net_wifi" />
