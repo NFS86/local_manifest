@@ -13,10 +13,11 @@
 	
 	# Misc
         <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="me" revision="lineage-18.1" clone-depth="1" />
+	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeDirac" remote="me" revision="master" clone-depth="1" />
 	
         # SEPOLICY
 	<remove-project name="android_device_nad_sepolicy" />
-	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="me" revision="eleven" />
+	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy-1" remote="me" revision="R" />
 
 	# Patch
         <remove-project name="android_frameworks_opt_net_ims" />
