@@ -7,7 +7,7 @@
         <remote name="patch"
                 fetch="https://github.com/PixelExperience" />
 	# Tree
-        <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="me" revision="Nusantara-11" clone-depth="1" />
+        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="me" revision="Nusantara-11" clone-depth="1" />
 	
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="vendor" revision="eleven" clone-depth="1" />
 	
