@@ -17,7 +17,7 @@
 	
         # SEPOLICY
 	<remove-project name="android_device_nad_sepolicy" />
-	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy-1" remote="me" revision="R" />
+	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="me" revision="eleven" />
 
 	# Patch
         <remove-project name="android_frameworks_opt_net_ims" />
