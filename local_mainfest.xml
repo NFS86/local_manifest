@@ -11,7 +11,7 @@
 	
 	# Tree
         <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="me" revision="Nusantara-11" clone-depth="1" />
-        <project path="vendor/realme/RMX1941" name="avendor_realme_RMX1941" remote="me" revision="oss" clone-depth="1" />
+        <project path="vendor/realme/RMX1941" name="vendor_realme_RMX1941" remote="me" revision="oss" clone-depth="1" />
         <project path="kernel/realme/RMX1941" name="A1k-9.0-kernel-source" remote="gey" revision="master" clone-depth="1" />
 	
 	# Misc
