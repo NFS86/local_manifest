@@ -2,7 +2,7 @@
 <manifest>
 	
 	<remote name="me"
-            fetch="https://github.com/Frachze97" />
+            fetch="https://github.com/Fraschze97" />
 	<remote name="g70"
             fetch="https://github.com/Realme-G70-Series" />
 	<remote name="minati"
