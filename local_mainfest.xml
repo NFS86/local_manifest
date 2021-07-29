@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
+	<remote name="anx"
+            fetch="https://github.com/" />
+	
 	# Tree
         <project path="device/realme/RMX1941" name="Frachze97/device_realme_RMX1941" remote="github" revision="Nusantara-11" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="Frachze97/android_vendor_realme_RMX1941" remote="github" revision="eleven" clone-depth="1" />
