@@ -35,7 +35,7 @@
         <remove-project name="android_frameworks_opt_net_ims" />
         <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pe" revision="eleven" clone-depth="1" />
 	
-        <remove-project name="android_frameworks_opt_net_wifi" />
-        <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="phh" revision="android-11.0.0_r39-phh" clone-depth="1" />
+        #remove-project name="android_frameworks_opt_net_wifi" />
+        #project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="phh" revision="android-11.0.0_r39-phh" clone-depth="1" />
 	
 </manifest>
