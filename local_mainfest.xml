@@ -24,8 +24,8 @@
 	<project path="vendor/ANXCamera" name="vendor_ANXCamera" remote="anx" revision="11" clone-depth="1" />
 	
         # SEPOLICY
-	<remove-project name="android_device_qcom_sepolicy_vndr" />
-	<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pe" revision="eleven" />
+	#remove-project name="android_device_qcom_sepolicy_vndr" />
+	#project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pe" revision="eleven" />
 	
 	# SELINUX
         #remove-project name="platform/external/selinux" />
