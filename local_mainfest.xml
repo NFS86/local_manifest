@@ -23,8 +23,8 @@
 	#project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy_vndr" remote="pe" revision="eleven" />
 	
 	# SELINUX
-        <remove-project name="android_external_selinux" />
-        <project path="external/selinux" name="external_selinux" remote="pe" revision="eleven" clone-depth="1" />
+        #remove-project name="android_external_selinux" />
+        #project path="external/selinux" name="external_selinux" remote="pe" revision="eleven" clone-depth="1" />
 
 	# Patch
         <remove-project name="android_frameworks_opt_net_ims" />
