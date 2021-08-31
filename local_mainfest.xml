@@ -5,14 +5,15 @@
             fetch="https://github.com/Fraschze97" />
 	<remote name="g70"
             fetch="https://github.com/Realme-G70-Series" />
-	<remote name="minati"
-            fetch="https://github.com/techyminati" />
+	<remote name="arrow"
+            fetch="https://github.com/ArrowOS-Devices" />
 	<remote name="pe"
             fetch="https://github.com/PixelExperience" />
 	
 	# Tree
         <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="me" revision="Nusantara-11" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="me" revision="eleven" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86_clang-r428724" remote="arrow" revision="arrow-11.0" clone-depth="1" />
 	
         # SEPOLICY
 	#remove-project name="android_device_nad_sepolicy" />
