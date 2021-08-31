@@ -14,10 +14,6 @@
         <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="me" revision="Nusantara-11" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="me" revision="eleven" clone-depth="1" />
 	
-	# Misc
-        <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="g70" revision="lineage-18.1" clone-depth="1" />
-	<project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="minati" revision="master" clone-depth="1" />
-	
         # SEPOLICY
 	#remove-project name="android_device_nad_sepolicy" />
 	#project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy_vndr" remote="pe" revision="eleven" />
