@@ -13,8 +13,8 @@
 	# Tree
         <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="me" revision="Nusantara-11" clone-depth="1" />
         <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="me" revision="eleven" clone-depth="1" />
-	<remove-project name="prebuilts/clang/host/linux-x86" />
-        <project path="platform_prebuilts_clang_host_linux-x86" name="android_prebuilts_clang_host_linux-x86_clang-r428724" remote="arrow" revision="arrow-11.0" clone-depth="1" />
+	<remove-project name="platform_prebuilts_clang_host_linux-x86" />
+        <project path="platform/prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86_clang-r428724" remote="arrow" revision="arrow-11.0" clone-depth="1" />
 	
         # SEPOLICY
 	#remove-project name="android_device_nad_sepolicy" />
