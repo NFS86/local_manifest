@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-	<remote name="me"
-            fetch="https://github.com/Fraschze97" />
-	<remote name="g70"
-            fetch="https://github.com/Realme-G70-Series" />
-	<remote name="minati"
-            fetch="https://github.com/techyminati" />
-	<remote name="pe"
-            fetch="https://github.com/PixelExperience" />
-	
+	<remote name="Finix"
+            fetch="https://github.com/AnGgIt88" />
+
 	# Tree
-        <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="me" revision="Nusantara-11" clone-depth="1" />
-        <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="me" revision="eleven" clone-depth="1" />
-	
-	# Misc
-        <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="g70" revision="lineage-18.1" clone-depth="1" />
-	<project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="minati" revision="master" clone-depth="1" />
-
-        # SEPOLICY
-	#remove-project name="android_device_nad_sepolicy" />
-	#project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy_vndr" remote="pe" revision="eleven" />
-	
-	# SELINUX
-        #remove-project name="android_external_selinux" />
-        #project path="external/selinux" name="external_selinux" remote="pe" revision="eleven" clone-depth="1" />
-
-	# Patch
-        <remove-project name="android_frameworks_opt_net_ims" />
-        <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pe" revision="eleven" clone-depth="1" />
-	
-        #remove-project name="android_frameworks_opt_net_wifi" />
-        #project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pe" revision="eleven" clone-depth="1" />
+        <project path="kernel/xiaomi/rosy" name="Finix_kernel-4.9-rosy" remote="Finix" revision="eleven" clone-depth="1" />
+        <project path="device/xiaomi/rosy" name="xd_device_xiaomi_rosy" remote="Finix" revision="eleven" clone-depth="1" />
+        <project path="vendor/xiaomi/rosy" name="xd_vendor_xiaomi_rosy" remote="Finix" revision="eleven" clone-depth="1" />
 	
 </manifest>
