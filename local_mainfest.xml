@@ -8,5 +8,5 @@
         <project path="kernel/xiaomi/rosy" name="Finix_kernel-4.9-rosy" remote="Finix" revision="eleven" clone-depth="1" />
         <project path="device/xiaomi/rosy" name="xd_device_xiaomi_rosy" remote="Finix" revision="eleven" clone-depth="1" />
         <project path="vendor/xiaomi/rosy" name="xd_vendor_xiaomi_rosy" remote="Finix" revision="eleven" clone-depth="1" />
-	
+	<project path="prebuilts/clang/host/linux-x86/clang-Finix" name="Finix-Clang" remote="Finix" revision="master" clone-depth="1" />
 </manifest>
