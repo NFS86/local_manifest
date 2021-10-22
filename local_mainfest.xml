@@ -7,13 +7,8 @@
             fetch="https://github.com/AnGgIt86" />
 
         # Remove
-        <remove-project name="android_device_xiaomi_olives" />
-        <remove-project name="android_device_xiaomi_sdm439-common" />
-        <remove-project name="proprietary_vendor_xiaomi_olives" />
-        <remove-project name="proprietary_vendor_xiaomi_sdm439-common" />
         <remove-project name="android_kernel_xiaomi_sdm439" />
-        <remove-project name="vendor_potato-prebuilts" />
-
+        
 	# Tree
         <project path="kernel/xiaomi/rosy" name="Finix_kernel-4.9-rosy" remote="Finix" revision="eleven" clone-depth="1" />
         <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="NFS" revision="aosp-11" clone-depth="1" />
