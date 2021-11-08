@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <!-- Remove -->
+        <remove-project name="packages/apps/Camera2" />
+
 	<!-- Tree -->
         <project path="kernel/xiaomi/rosy" name="AnGgIt88/Finix_kernel-4.9-rosy" remote="github" revision="11" />
         <project path="device/xiaomi/rosy" name="AnGgIt86/ArcaneOS_device_xiaomi_rosy" remote="github" revision="11" />
