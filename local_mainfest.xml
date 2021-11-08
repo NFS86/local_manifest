@@ -2,7 +2,7 @@
 <manifest>
 
         <!-- Remove -->
-        <remove-project path="packages/apps/Camera2" />
+        <remove-project name="packages/apps/Camera2" />
 
 	<!-- Tree -->
         <project path="kernel/xiaomi/rosy" name="AnGgIt88/Finix_kernel-4.9-rosy" remote="github" revision="11" />
