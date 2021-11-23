@@ -9,7 +9,7 @@
 	<remove-project name="build" />
 
 	<!-- Tree -->
-        <project path="kernel/xiaomi/rosy" name="Finix_kernel-4.9-rosy" remote="Finix" revision="11" />
+        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="Finix" revision="eleven" />
         <project path="device/xiaomi/rosy" name="ArcaneOS_device_xiaomi_rosy" remote="NFS" revision="11" />
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="aosp-11" />
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="arm64-gcc" remote="NFS" revision="gcc-master" />
