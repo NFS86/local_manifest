@@ -3,17 +3,17 @@
 
         <!-- Remote -->
 	<remote name="Finix" fetch="https://github.com/AnGgIt88" />
-	<remote name="NFS" fetch="https://github.com/AnGgIt86" />
+	<remote name="NFS" fetch="https://github.com/NFS86" />
+        <remote name="PROJECTS" fetch="https://github.com/NFS-projects" />
 
         <!-- Remove -->
 	
-
 	<!-- Tree -->
-        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="Finix" revision="eleven" />
-        <project path="device/xiaomi/rosy" name="ArcaneOS_device_xiaomi_rosy" remote="NFS" revision="11" />
-        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="aosp-11" />
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="Finix" revision="gcc-master" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="Finix" revision="gcc-master" />
+        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="eleven" />
+        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="NFS" revision="eleven" />
+        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="Finix" revision="aosp-11" />
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="PROJECTS" revision="gcc-master" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="PROJECTS" revision="gcc-master" />
 
 
 </manifest>
