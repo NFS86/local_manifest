@@ -12,8 +12,8 @@
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="eleven" />
         <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="NFS" revision="twelve" />
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="twelve" />
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="PROJECTS" revision="gcc-master" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="PROJECTS" revision="gcc-master" />
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="PROJECTS" revision="11.x" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="PROJECTS" revision="11.x" />
         <project path="device/xiaomi/rosy/NFSParts" name="NFSParts" remote="PROJECTS" revision="sdk29" />
 
 </manifest>
