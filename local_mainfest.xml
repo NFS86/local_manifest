@@ -8,6 +8,9 @@
         <remote name="XD" fetch="https://github.com/xdroid-CAF" />
 
         <!-- Remove -->
+        <remove-project name="hardware/qcom-caf/msm8996/display" />
+        <remove-project name="hardware/qcom-caf/msm8996/audio" />
+        <remove-project name="hardware/qcom-caf/msm8996/media" />
 	
 	<!-- Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="eleven" />
