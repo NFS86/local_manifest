@@ -2,12 +2,20 @@
 <manifest>
 
         <!-- Remote -->
-	<remote name="Finix" fetch="https://github.com/AnGgIt88" />
-	<remote name="NFS" fetch="https://github.com/NFS86" />
-        <remote name="PROJECTS" fetch="https://github.com/NFS-projects" />
-        <remote name="pxl" fetch="https://github.com/PixelExperience" />
+	<remote name="Finix"
+                fetch="https://github.com/AnGgIt88" />
+
+	<remote name="NFS"
+                fetch="https://github.com/NFS86" />
+
+        <remote name="PROJECTS"
+                fetch="https://github.com/NFS-projects" />
+
+        <remote name="pxl"
+                fetch="https://github.com/PixelExperience" />
 
         <!-- Remove -->
+        <remove-project name="platform_vendor_spark" />
 
 	<!-- Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="eleven" />
@@ -16,6 +24,7 @@
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="PROJECTS" revision="11.x" />
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="PROJECTS" revision="11.x" />
         <project path="device/xiaomi/rosy/NFSParts" name="NFSParts" remote="PROJECTS" revision="sdk29" />
+        <project path="vendor/spark" name="platform_vendor_spark" remote="Finix" revision="spark" />
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
 
 </manifest>
