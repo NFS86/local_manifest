@@ -14,19 +14,14 @@
         <remote name="pxl"
                 fetch="https://github.com/PixelExperience" />
 
-        <remote name="congor"
-                fetch="https://github.com/ConquerOS" />
-
         <!-- Remove -->
         <remove-project name="platform_vendor_spark" />
         <remove-project name="system_sepolicy" />
-        <remove-project name="LineageOS/android_hardware_qcom_display"/>
 
         <!-- Source tree -->
         <project path="vendor/spark" name="platform_vendor_spark" remote="Finix" revision="spark" />
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
         <project path="system/sepolicy" name="system_sepolicy" remote="NFS" revision="spark" />
-        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="congor" revision="twelve"/>
 
 	<!-- Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="eleven" />
