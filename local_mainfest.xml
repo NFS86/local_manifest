@@ -23,8 +23,10 @@
         <remove-project name="LineageOS/android_hardware_qcom_display"/>
         <remove-project name="LineageOS/android_hardware_qcom_audio"/>
         <remove-project name="LineageOS/android_hardware_qcom_media"/>
+        <remove-project name="bionic" />
 
         <!-- Source tree -->
+        <project path="bionic" name="bionic" groups="pdk" remote="NFS" revision="spark" />
         <project path="vendor/spark" name="platform_vendor_spark" remote="Finix" revision="spark" />
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
         <project path="system/sepolicy" name="system_sepolicy" remote="NFS" revision="spark" />
