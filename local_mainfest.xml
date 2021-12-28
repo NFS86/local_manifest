@@ -25,7 +25,7 @@
         <!-- Source tree -->
         <project path="vendor/octavi" name="Octavi-OS" remote="PROJECTS" revision="platform_vendor" />
         <project path="system/sepolicy" name="Octavi-OS" remote="PROJECTS" revision="platform_system_sepolicy" />
-        <project path="system/sepolicy" name="Octavi-OS" remote="PROJECTS" revision="settings_apps" />
+        <project path="packages/apps/Settings" name="Octavi-OS" remote="PROJECTS" revision="settings_apps" />
 
         <!-- Hardware CAF rosy -->
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="congor" revision="twelve"/>
