@@ -17,6 +17,7 @@
         <!-- Remove -->
         <remove-project name="platform_vendor_octavi" />
         <remove-project name="platform_system_sepolicy" />
+        <remove-project name="platform_packages_apps_Settings" />
         <remove-project name="LineageOS/android_hardware_qcom_display"/>
         <remove-project name="LineageOS/android_hardware_qcom_audio"/>
         <remove-project name="LineageOS/android_hardware_qcom_media"/>
@@ -24,6 +25,9 @@
         <!-- Source tree -->
         <project path="vendor/octavi" name="Octavi-OS" remote="PROJECTS" revision="platform_vendor" />
         <project path="system/sepolicy" name="Octavi-OS" remote="PROJECTS" revision="platform_system_sepolicy" />
+        <project path="system/sepolicy" name="Octavi-OS" remote="PROJECTS" revision="settings_apps" />
+
+        <!-- Hardware CAF rosy -->
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="congor" revision="twelve"/>
         <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="congor" revision="twelve"/>
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="congor" revision="twelve"/>
@@ -38,6 +42,6 @@
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="twelve" />
         
         <!-- NFS Parts -->
-        <project path="device/xiaomi/rosy/NFSParts" name="NFSParts" remote="PROJECTS" revision="sdk29" />
+        <project path="device/xiaomi/rosy/NFSParts" name="NFSParts" remote="NFS" revision="sdk30" />
 
 </manifest>
