@@ -15,6 +15,7 @@
                 fetch="https://github.com/ConquerOS" />
 
         <!-- Remove -->
+        <remove-project name="platform_vendor_gms" />
         <remove-project name="platform_vendor_octavi" />
         <remove-project name="platform_system_sepolicy" />
         <remove-project name="platform_packages_apps_Settings" />
