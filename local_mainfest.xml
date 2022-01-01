@@ -14,40 +14,12 @@
         <remote name="congor"
                 fetch="https://github.com/ConquerOS" />
 
-        <remote name="gcam"
-                fetch="https://github.com/GhostMaster69-dev" />
-
-        <!-- Remove -->
-        <remove-project name="platform_vendor_octavi" />
-        <remove-project name="platform_system_sepolicy" />
-        <remove-project name="platform_packages_apps_Settings" />
-        <remove-project name="LineageOS/android_hardware_qcom_display"/>
-        <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-        <remove-project name="LineageOS/android_hardware_qcom_media"/>
-
-        <!-- Hardware CAF rosy -->
-        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="PROJECTS" revision="twelve"/>
-        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="PROJECTS" revision="twelve"/>
-        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="PROJECTS" revision="twelve"/>
-
-        <!-- Source tree -->
-        <project path="vendor/octavi" name="Octavi-OS" remote="PROJECTS" revision="platform_vendor" />
-        <project path="system/sepolicy" name="Octavi-OS" remote="PROJECTS" revision="platform_system_sepolicy" />
-        <project path="packages/apps/Settings" name="Octavi-OS" remote="PROJECTS" revision="settings_apps" />
-
-        <!-- Toolchain -->
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="PROJECTS" revision="11.x" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="PROJECTS" revision="11.x" />
+        <remote name="plk"
+                fetch="https://github.com/Pulkit077" />
 
 	<!-- Device Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="eleven" />
-        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="NFS" revision="octavios-12" />
-        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="twelve" />
+        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="plk" revision="twelve" />
+        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="plk" revision="twelve" />
         
-        <!-- NFS Parts -->
-        <project path="packages/apps/NFSParts" name="NFSParts" remote="NFS" revision="sdk30" />
-
-        <!-- Gcam -->
-        <project path="packages/apps/CameraGo" name="android_packages_apps_CameraGo" remote="gcam" revision="main" />
-
 </manifest>
