@@ -2,20 +2,7 @@
 <manifest>
 
         <!-- Remote -->
-	<remote name="Finix"
-                fetch="https://github.com/AnGgIt88" />
-
-	<remote name="NFS"
-                fetch="https://github.com/NFS86" />
-
-        <remote name="PROJECTS"
-                fetch="https://github.com/NFS-projects" />
-
-        <remote name="congor"
-                fetch="https://github.com/ConquerOS" />
-
-        <remote name="plk"
-                fetch="https://github.com/Pulkit077" />
+        <remote name="PROJECTS" fetch="https://github.com/NFS-projects" />
 
         <!-- Toolchain -->
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="PROJECTS" revision="11.x" />
@@ -23,7 +10,7 @@
 
 	<!-- Device Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="eleven" />
-        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="plk" revision="twelve" />
-        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="plk" revision="twelve" />
+        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
+        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
         
 </manifest>
