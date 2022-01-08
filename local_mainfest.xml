@@ -5,7 +5,7 @@
         <remote name="PROJECTS" fetch="https://github.com/NFS-projects" />
 
         <!-- Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-NeedForSpeed" name="NFS-clang" remote="PROJECTS" revision="PROJECTS" />
+        <project path="prebuilts/clang/host/linux-x86/clang-NeedForSpeed" name="NFS-clang" remote="PROJECTS" revision="main" />
 
 	<!-- Device Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
