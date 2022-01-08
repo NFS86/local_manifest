@@ -3,9 +3,10 @@
 
         <!-- Remote -->
         <remote name="PROJECTS" fetch="https://github.com/NFS-projects" />
+        <remote name="Gitlab" fetch="https://gitlab.com/" />
 
         <!-- Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-NeedForSpeed" name="NFS-clang" remote="PROJECTS" revision="main" />
+        <project path="prebuilts/clang/host/linux-x86/clang-NeedForSpeed" name="AnGgIt86/nfs-clang.git" remote="Gitlab" revision="main" />
 
 	<!-- Device Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
