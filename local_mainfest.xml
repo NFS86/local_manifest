@@ -5,8 +5,7 @@
         <remote name="PROJECTS" fetch="https://github.com/NFS-projects" />
 
         <!-- Toolchain -->
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="PROJECTS" revision="11.x" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="PROJECTS" revision="11.x" />
+        <project path="prebuilts/clang/host/linux-x86/clang-NeedForSpeed" name="NFS-clang" remote="PROJECTS" revision="PROJECTS" />
 
 	<!-- Device Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
