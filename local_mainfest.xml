@@ -6,7 +6,7 @@
         <remote name="pr" fetch="https://github.com/kdrag0n" />
 
         <!-- Toolchain -->
-        <project path="prebuilts/clang/host/linux-x86/clang-NeedForSpeed" name="proton-clang" remote="pr" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="pr" revision="master" />
 
 	<!-- Device Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
