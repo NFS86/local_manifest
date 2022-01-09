@@ -12,5 +12,8 @@
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
         <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="PROJECTS" revision="arcanaos-12" />
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
+
+        <!-- Gcam -->
+        <project path="packages/apps/CameraGo" name="packages_apps_CameraGo" remote="PROJECTS" revision="main" />
         
 </manifest>
