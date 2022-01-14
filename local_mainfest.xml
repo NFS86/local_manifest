@@ -16,4 +16,7 @@
         <!-- Gcam -->
         <project path="packages/apps/CameraGo" name="packages_apps_CameraGo" remote="PROJECTS" revision="main" />
         
+        <!-- NFS Parts -->
+        <project path="packages/apps/NFSParts" name="NFSParts" remote="PROJECTS" revision="sdk30" />
+
 </manifest>
