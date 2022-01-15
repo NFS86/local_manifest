@@ -4,6 +4,7 @@
         <!-- Remote -->
         <remote name="PROJECTS" fetch="https://github.com/NFS-projects" />
         <remote name="pr" fetch="https://github.com/kdrag0n" />
+        <remote name="nfs" fetch="https://github.com/NFS86" />
 
         <!-- Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="pr" revision="master" />
@@ -17,6 +18,6 @@
         <project path="packages/apps/CameraGo" name="packages_apps_CameraGo" remote="PROJECTS" revision="main" />
         
         <!-- NFS Parts -->
-        <project path="packages/apps/NFSParts" name="NFSParts" remote="PROJECTS" revision="sdk30" />
+        <project path="packages/apps/NFSParts" name="NFSParts" remote="nfs" revision="sdk30" />
 
 </manifest>
