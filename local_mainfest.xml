@@ -3,14 +3,13 @@
 
         <!-- Remote -->
         <remote name="PROJECTS" fetch="https://github.com/NFS-projects" />
-        <remote name="NFS" fetch="https://github.com/NFS86" />
         
         <!-- Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="PROJECTS" revision="main" />
 
 	<!-- Device Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
-        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="PROJECTS" revision="cherish-12" />
+        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="PROJECTS" revision="12.1" />
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
 
         <!-- NFS Parts -->
