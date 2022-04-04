@@ -13,4 +13,8 @@
 
   <!-- NFS Parts -->
   <project path="packages/apps/NFSParts" name="NFSParts" remote="PROJECTS" revision="S" />
+
+  <!-- AwakenOS -->
+  <remove-project name="android_device_awaken_sepolicy" />
+  <project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="PROJECTS" revision="12.1" />
 </manifest>
