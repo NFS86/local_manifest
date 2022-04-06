@@ -11,7 +11,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="PROJECTS" clone-depth="1" revision="main" />
 
   <!-- Device Tree -->
-  <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" clone-depth="1" revision="oc" />
+  <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" clone-depth="1" revision="twelve" />
   <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="PROJECTS" clone-depth="1" revision="12.1" />
   <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="PROJECTS" clone-depth="1" revision="twelve" />
 
