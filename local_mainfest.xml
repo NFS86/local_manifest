@@ -8,20 +8,20 @@
           fetch="https://gitlab.com/LordShen" />
 
   <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="PROJECTS" revision="main" />
+  <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="PROJECTS" clone-depth="1" revision="main" />
 
   <!-- Device Tree -->
-  <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="oc" />
-  <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="PROJECTS" revision="12.1" />
-  <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
+  <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" clone-depth="1" revision="oc" />
+  <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="PROJECTS" clone-depth="1" revision="12.1" />
+  <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="PROJECTS" clone-depth="1" revision="twelve" />
 
   <!-- NFS Parts -->
-  <project path="packages/apps/NFSParts" name="NFSParts" remote="PROJECTS" revision="S" />
+  <project path="packages/apps/NFSParts" name="NFSParts" remote="PROJECTS" clone-depth="1" revision="S" />
 
   <!-- AwakenOS -->
   <remove-project name="android_device_awaken_sepolicy" />
-  <project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="PROJECTS" revision="12.1" />
+  <project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="PROJECTS" clone-depth="1" revision="12.1" />
 
   <!-- Gapps -->
-  <project path="vendor/gapps" name="android_vendor_gapps" remote="labgit" revision="12.0"/>
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="labgit" clone-depth="1" revision="12.0"/>
 </manifest>
