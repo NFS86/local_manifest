@@ -45,6 +45,6 @@
 
   <!-- Sepolicy -->
  <remove-project name="device_qcom_sepolicy-legacy-um" />
- <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="Ankit" revision="evolution" />
+ <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Ankit" revision="evolution" />
 
 </manifest>
