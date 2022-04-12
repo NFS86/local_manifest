@@ -4,10 +4,13 @@
   <!-- Remote -->
   <remote name="PROJECTS"
           fetch="https://github.com/NFS-projects" />
+
   <remote name="labgit"
           fetch="https://gitlab.com/LordShen" />
+
   <remote name="anandhan07"
           fetch="https://github.com/anandhan07/" />
+
 
   <!-- Toolchain -->
   <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="PROJECTS" clone-depth="1" revision="main" />
