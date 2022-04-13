@@ -26,9 +26,6 @@
   <!-- NFS Parts -->
   <project path="packages/apps/NFSParts" name="NFSParts" remote="PROJECTS" clone-depth="1" revision="S" />
 
-  <!-- Lineage -->
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" clone-depth="1" revision="lineage-19.1" />
-
   <!-- AwakenOS 
   <remove-project name="android_device_awaken_sepolicy" />
   <project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="PROJECTS" clone-depth="1" revision="12.1" />
@@ -45,5 +42,7 @@
   <!-- Sepolicy
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="anandhan07" revision="spark-12.1" />
   -->
+
+  <include name="bootleggers/bootleg.xml" />
 
 </manifest>
