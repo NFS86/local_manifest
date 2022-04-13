@@ -44,6 +44,8 @@
   -->
 
   <!-- Sepolicy -->
+  <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
+  <remove-project name="android_vendor_qcom_opensource_display-commonsys" />
   <remove-project name="device_qcom_sepolicy-legacy-um" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Ankit" revision="evolution" />
 
