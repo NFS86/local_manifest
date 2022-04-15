@@ -14,9 +14,11 @@
   <remote name="Ankit"
           fetch="https://github.com/AnkitSavani111" />
 
+  <remote name="NFS"
+          fetch="https://gitlab.com/AnGgIt86" />
 
   <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="PROJECTS" clone-depth="1" revision="main" />
+  <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFS" clone-depth="1" revision="main" />
 
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" clone-depth="1" revision="twelve" />
