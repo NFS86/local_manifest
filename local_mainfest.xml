@@ -2,17 +2,8 @@
 <manifest>
 
   <!-- Remote -->
-  <remote name="PROJECTS"
-          fetch="https://github.com/NFS-projects" />
-
-  <remote name="labgit"
-          fetch="https://gitlab.com/LordShen" />
-
-  <remote name="anandhan07"
-          fetch="https://github.com/anandhan07" />
-
-  <remote name="Ankit"
-          fetch="https://github.com/AnkitSavani111" />
+  <remote name="NFS86"
+          fetch="https://github.com/NFS86" />
 
   <remote name="NFS"
           fetch="https://gitlab.com/AnGgIt86" />
@@ -26,7 +17,7 @@
 
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="Baunilla" clone-depth="1" revision="lineage-19.1" />
-  <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="Baunilla" clone-depth="1" revision="lineage-19.1" />
+  <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="NFS86" clone-depth="1" revision="lineage-19.1" />
   <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="Baunilla" clone-depth="1" revision="lineage-19.1" />
 
 </manifest>
