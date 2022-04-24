@@ -11,12 +11,12 @@
   <remote name="Baunilla"
           fetch="https://github.com/baunilla" />
 
-  <remote name="GhostMaster69-dev"
-          fetch="https://github.com/GhostMaster69-dev" />
+  <remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />
 
 
   <!-- Toolchain -->
-  <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFS" clone-depth="1" revision="main" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" clone-depth="1" revision="master" />
 
   <!-- Device Tree -->
   <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="Baunilla" clone-depth="1" revision="lineage-19.1" />
