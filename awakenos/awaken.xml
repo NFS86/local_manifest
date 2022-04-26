@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Sepolicy -->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" clone-depth="1" revision="lineage-19.1" />
+
+</manifest>
