@@ -30,11 +30,6 @@
   <!-- NFS Parts -->
   <project path="packages/apps/NFSParts" name="NFSParts" remote="PROJECTS" clone-depth="1" revision="S" />
 
-  <!-- AwakenOS 
-  <remove-project name="android_device_awaken_sepolicy" />
-  <project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="PROJECTS" clone-depth="1" revision="12.1" />
-  -->
-
   <!-- Gapps
   <project path="vendor/gapps" name="android_vendor_gapps" remote="labgit" clone-depth="1" revision="12.0"/>
   -->
