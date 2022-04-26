@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Sepolicy -->
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" clone-depth="1" revision="lineage-19.1" />
+  <remove-project name="android_device_awaken_sepolicy" />
+  <project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="PROJECTS" clone-depth="1" revision="12.1" />
 
 </manifest>
