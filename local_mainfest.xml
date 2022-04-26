@@ -44,5 +44,6 @@
 
   <!--include name="local_manifests/bootleggers/bootleg.xml" /-->
   <include name="local_manifests/camera/camera.xml" />
+  <!--include name="local_manifests/awakenos/awaken.xml" /-->
 
 </manifest>
