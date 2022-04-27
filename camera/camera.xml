@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Camera2 -->
-  <project path="packages/apps/Camera2" name="PixelExperience/packages_apps_Camera2" remote="github" clone-depth="1" revision="twelve" />
+  <!-- CameraGo -->
+  <project path="packages/apps/CameraGo" name="NFS-projects/packages_apps_CameraGo" remote="github" clone-depth="1" revision="main" />
 
 </manifest>
