@@ -2,7 +2,8 @@
 <manifest>
 
   <!-- Sepolicy -->
-  <remove-project name="android_device_awaken_sepolicy" />
-  <project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="PROJECTS" clone-depth="1" revision="12.1" />
-
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_display" />
+  
 </manifest>
