@@ -21,6 +21,5 @@
   <!-- NFS Parts -->
   <project path="packages/apps/NFSParts" name="NFSParts" remote="PROJECTS" clone-depth="1" revision="S" />
 
-  <include name="local_manifests/camera/camera.xml" />
-
+  
 </manifest>
