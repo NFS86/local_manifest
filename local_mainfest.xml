@@ -21,5 +21,7 @@
   <!-- NFS Parts -->
   <project path="packages/apps/NFSParts" name="NFSParts" remote="PROJECTS" clone-depth="1" revision="S" />
 
-  
+  <!-- CameraGo -->
+  <project path="packages/apps/CameraGo" name="NFS-projects/packages_apps_CameraGo" remote="github" clone-depth="1" revision="main" />
+
 </manifest>
